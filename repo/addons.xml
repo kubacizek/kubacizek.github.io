@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons><addon id="skin.estuary.stream-cinema-2.leia" version="3.0.3" name="Estuary Stream-Cinema-2 (Leia)" provider-name="Gargu/Gargy007, phil65, Ichabod Fletchman, mod by JiRo, Client">
+	<requires>
+		<import addon="xbmc.gui" version="5.14.0"/>
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false">
+		<res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />
+		<res width="1920" height="1280" aspect="3:2" default="false" folder="xml" />
+		<res width="1920" height="1200" aspect="16:10" default="false" folder="xml" />
+		<res width="2040" height="1080" aspect="17:9" default="false" folder="xml" />
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
+		<res width="2560" height="1080" aspect="21:9" default="false" folder="xml" />
+		<res width="2338" height="1080" aspect="19.5:9" default="false" folder="xml" />
+		<res width="2160" height="1080" aspect="18:9" default="false" folder="xml" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<news>
+
+[B]Verze 3.0.3
+- Sjednoceny vzhled
+- Odstranene zbytecne polozky z nastaveni
+- Vylepsene funkce na touchscreen
+- Opraveny Nove dabovane filmy/serialy
+[B]Verze 3.0.1
+- Kompletne prevedeno na podporu noveho SC2 pluginu
+- Fixnuty vsechny zname bugy
+- Odstraneny A-Z a Zanr z Widgetu Filmy a Serialy (duvod vzhled a spatna implementace)
+- testovano s SC2 1.0.6
+- Nahrany nove ikonky: Zdroj SC2 plugin a Zbynek
+[B]Verze 3.0.0.b1
+- Opraveny odkazy na vyhledavani
+- Pecliveji pretestovana verze Alpha 2 - vypada ze je funkcni tim padem se posunulo do Bety
+[B]Verze 3.0.0.a2[/B]
+- dalsi cisteni stavu s 3.0.0.a1
+- doplneni moznosti zobrazovat na hlavni strance nejenom listy ale in "ZDI" pro lepsi prehlednost
+- Pridani novych seznamu s nejnovejsiho doplnku SC2 jako Nove a Posledni pridane
+- Otestovany SC2 2.0.0 Beta
+- Pridana podpora Nova Plus Doplnku
+- Otestovany AutoCompletation doplnek
+- Pridany Vychozi nastaveni Skinu aby se ukazaly moznosti skinu s SC2
+- Opraveny drobne bugy
+[B]Verze 3.0.0.a1[/B]
+- prvni pokus o portaci na SC2
+- Prakticky vyhazeni kategorii co SC2 zatim nepodporuje a rozbehani zakladni funkcionality SC2 menicek
+[B]Verze 2.0.27[/B]
+- doplněna dlaždice CoreELEC do systémových nastavení
+- oprava cest k doplňku iVysíláni - Česká televize (doplněk instalujte z repozitáře XBMC-Kodi CZ/SK)
+[B]Verze 2.0.26[/B]
+- přidána podpora archivu Skylink
+- drobné opravy cest
+[B]Verze 2.0.25[/B]
+- oprava cesty k tvnoise.gif při nedostupném obrázku (plakátu)
+[B]Verze 2.0.24[/B]
+- oprava chybného volání pluginu Youtube pokud není plugin Youtube nainstalován
+- oprava chyby zobrazení widgetu Poslední sledované seriály s použitím seznamu Trakt
+[B]Verze 2.0.23[/B]
+- opraveny odkazy widgetu "TV dnes" a "TV program na 14 dní"
+[B]Verze 2.0.12.a3[/B]
+- upraveny odkazy widgetů Filmy Stream Cinema
+[B]Verze 2.0.12.a2[/B]
+- opravena chyba zobrazování hodnocení (ratingu)
+[B]Verze 2.0.12.a1[/B]
+- určeno výhradně pro Kodi 18.x Leia
+- výchozí verze Estuary 2.0.12
+- úprava výchozího vzhledu podle verze Estuary Stream-Cinema 1.9.16.h
+- verze je určena k testování nedočkavými uživateli výhradě na Kodi 18.x
+		</news>
+		<summary lang="cs">Vzhled Estuary Stream-Cinema-2 od Gargy007, Gargu a převzáno od phil65, který modifikoval původní verzi od JiRo(Estuary Stream-Cinema)</summary>
+		<summary lang="sk">Vzhľad Estuary Stream-Cinema-2 od Gargy007, Gargu ktorý to zobral od phil65 a ten od od JiRo, autora povodného skinu(Estuary Stream-Cinema)</summary>
+		<description lang="cs">Estuary Stream-Cinema-2 je odvozený od výchozího vzhledu pro Kodi 18.0 a vyšší. Snaží se být jednoduše pochopitelný a použitelný pro nové uživatele Kodi. Modifikace pro Stream-Cinema-2 přidává do vzhledu funkce pro přímé využívání tohoto populárního českého a slovenského addon.</description>
+		<description lang="sk">Estuary Stream-Cinema-2 je odvodený od východiskového vzhľadu pre Kodi 18.0 a vyššie. Pokúša sa byť pre prvotných používateľov Kodi jednoduchým na pochopenie a používanie. Modifikácia pre Stream-Cienema-2 pridáva do vzhľadu funkcie pre priame využívanie tohto populárneho českého a slovenského addon.</description>
+		<disclaimer lang="cs">Estuary Stream-Cinema je amatérskou úpravou vzhledu Estuary. Používáte ho na vlastní nebezpečí.[CR]Případnou podporu najdete na http://sc2.zone/</disclaimer>
+		<disclaimer lang="sk">Estuary Stream-Cinema je amatérskou úpravou vhľadu Estuary. Používate ho na vlastné nebezpečenstvo.[CR]Prípadnú podporu nájdete na http://sc2.zone/</disclaimer>
+		<platform>all</platform>
+		<license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
+		<forum>http://sc2.zone/</forum>
+		<source>https://github.com/Gargy007/skin.estuary.stream-cinema-2.leia</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+			<screenshot>resources/screenshot-04.jpg</screenshot>
+			<screenshot>resources/screenshot-05.jpg</screenshot>
+			<screenshot>resources/screenshot-06.jpg</screenshot>
+			<screenshot>resources/screenshot-07.jpg</screenshot>
+			<screenshot>resources/screenshot-08.jpg</screenshot>
+		</assets>
+	</extension>
+</addon>
+<addon id="plugin.video.stream-cinema-2-release" name="Stream Cinema Community" version="1.4.14" provider-name="scc">
+    <requires>
+        <import addon="xbmc.python" version="2.26.0"/>
+        <import addon="script.module.requests" version="2.22.0"/>
+        <import addon="script.module.routing" version="0.2.3"/>
+        <import addon="script.module.dateutil" version="2.8.1"/>
+        <import addon="script.module.beautifulsoup4" version="4.6.2"/>
+        <import addon="script.module.arrow" />
+        <import addon="script.module.trakt" version="4.2.0"/>
+        <import addon="script.module.pyqrcode" version="0.0.1"/>
+        <import addon="script.module.future" version="0.17.1"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+    </extension>
+    <extension library="service.py" point="xbmc.service">
+        <provides>service</provides>
+    </extension>
+    <extension point="xbmc.python.module" library="resources/lib/"/>
+    <extension point="xbmc.addon.metadata">
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <summary lang="en_GB">Stream Cinema Community - web storage content player</summary>
+        <summary lang="sk_SK">Stream Cinema Community - prehrávač obsahu webového úložiska</summary>
+        <summary lang="cs_CZ">Stream Cinema Community - přehrávač obsahu webového úložiště</summary>
+        <description lang="en_GB">Please visit [COLOR blue]www.streamcinema.cz[/COLOR] for SCC support and assistance! Kindly note that SCC is not an official part of the media player you are running, and therefore not to be mentioned within official support channels, this addon has nothing to do with the media player itself, nor it's intended use, it is simply a third party plugin which has been added to your system.</description>
+        <description lang="sk_SK">Pre pomoc a podporu so SCC navštívte stránku [COLOR blue]www.streamcinema.cz[/COLOR]. Pripomíname, že SCC nie je oficiálnou súčasťou prehrávača médií, ktorý používate, a preto ho nemožno uviesť v oficiálnych podporných kanáloch. Tento doplnok nemá nič spoločné so samotným prehrávačom médií, ani s jeho zamýšľaným použitím, je to proste plugin tretích strán, ktorý bol pridaný do vášho systému.</description>
+        <description lang="cs_CZ">Navštivte [COLOR blue]www.streamcinema.cz[/COLOR] pro podporu a pomoc s SCC! Vezměte prosím na vědomí, že SCC není oficiální součástí spuštěného přehrávače médií, a proto jej nelze uvést v oficiálních podpůrných kanálech. Tento doplněk nemá nic společného se samotným přehrávačem médií, ani s jeho zamýšleným použitím, je to prostě plugin třetích stran, který byl přidán do vašeho systému.</description>
+        <language>en cs sk</language>
+        <platform>all</platform>
+        <license>GPL 2.0</license>
+        <forum>https://forum.sc2.zone</forum>
+        <website>https://sc2.zone</website>
+        <source>https://git.hotshot.sk/vregat/plugin-video-stream-cinema-2.git</source>
+        <assets>
+            <icon>resources/skins/images/icon-new.png</icon>
+            <fanart>resources/skins/images/fanart.jpg</fanart>
+            <clearlogo>resources/skins/images/clearlogo.png</clearlogo>
+            <screenshot>resources/skins/images/screenshot1.jpg</screenshot>
+            <screenshot>resources/skins/images/screenshot2.jpg</screenshot>
+            <screenshot>resources/skins/images/screenshot3.jpg</screenshot>
+        </assets>
+        <disclaimer lang="en_GB">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+        <disclaimer lang="sk_SK">Autor nehostuje ani nedistribuuje žiadny obsah zobrazený týmto doplnkom. Autor nemá žiadny vzťah s poskytovateľmi obsahu.</disclaimer>
+        <disclaimer lang="cs_CZ">Autor není hostitelem ani nedistribuuje žádný obsah zobrazený tímto doplňkem. Autor nemá žádný vztah s poskytovateli obsahu.</disclaimer>
+    </extension>
+</addon>
+</addons>
